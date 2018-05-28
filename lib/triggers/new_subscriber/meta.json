@@ -1,0 +1,21 @@
+{
+    "name": {
+        "pt_BR": "Novo contato",
+        "en": "New subscriber"
+    },
+    "description": {
+        "pt_BR": "",
+        "en": ""
+    },
+    "trigger_fields": {
+        "type":"remote",
+        "fields": [
+            {
+                "key": "list_id",
+                "name": {"pt_BR": "ID da lista", "en": "List ID"},
+                "description": {"pt_BR": "O ID da lista.", "en": "The list ID."},
+                "field_type": "integer"
+            }
+        ]
+    }
+}
