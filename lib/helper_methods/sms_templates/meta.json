@@ -1,0 +1,17 @@
+{
+  "name": "SMS Templates",
+  "helper_method_key": "smsTemplates",
+  "requests": [
+    {
+      "method_name": "/templates/sms",
+      "mapping": {
+        "label": {
+          "fields": ["name"]
+        },
+        "value": {
+          "field": "id"
+        }
+      }
+    }
+  ]
+}

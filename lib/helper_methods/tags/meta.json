@@ -1,0 +1,17 @@
+{
+  "name": "Tags",
+  "helper_method_key": "tags",
+  "requests": [
+    {
+      "method_name": "/tags",
+      "mapping": {
+        "label": {
+          "fields": ["name"]
+        },
+        "value": {
+          "field": "id"
+        }
+      }
+    }
+  ]
+}

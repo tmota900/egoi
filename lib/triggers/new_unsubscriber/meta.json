@@ -1,0 +1,45 @@
+{
+    "name": {
+        "pt_BR": "",
+        "en": "New Unsubscriber"
+    },
+    "description": {
+        "pt_BR": "",
+        "en": "Triggers when any current subscriber unsubscribes from a list."
+    },
+    /*    "trigger_fields": {
+            "type":"local",
+            "fields": [
+                {
+                    "key": "title",
+                    "name": "Título",
+                    "description": "Título do artigo",
+                    "field_type": "string"
+                },
+                {
+                    "key": "author",
+                    "name": "Autor",
+                    "description": "Autor do artigo",
+                    "field_type": "string"
+                }
+            ]
+        },*/
+    "configuration_fields": {
+        "key": "list_id",
+        "name": {
+            "pt_BR": "",
+            "en": "List"
+        },
+        "description": {
+            "pt_BR": "",
+            "en": "Choose a list."
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+            "type": "remote",
+            "helper_method": "lists"
+        }
+    }
+}

@@ -10,7 +10,7 @@
   "signup_url": "https://login.egoiapp.com/#/signup",
   "api_base_uri": {
     "production": {
-      "uri": "http://dev-web-agency.e-team.biz/pluginman",
+      "uri": "http://dev-web-agency.e-team.biz/pluginman/pluga",
       "label": "Produção",
       "default": true
     }
@@ -25,9 +25,18 @@
         "prefix": "Bearer",
         "type": "text",
         "validations": [
-          {"name": "min_length", "value": 10}
+          {
+            "name": "min_length",
+            "value": 10
+          }
         ]
       }
-    ]
+    ],
+    "ping_request": {
+      "method": "/ping",
+      "params": {
+        "foo": "bar"
+      }
+    }
   }
 }

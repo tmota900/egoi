@@ -1,6 +1,7 @@
 {
+  "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*_test.js test/test_helper.js"
+    "test": "mocha test/**/*_test.js test/test_helper.js --timeout 15000"
   },
   "engines": {
     "node": "8.10"

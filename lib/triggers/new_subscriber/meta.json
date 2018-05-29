@@ -1,21 +1,45 @@
 {
     "name": {
-        "pt_BR": "Novo contato",
-        "en": "New subscriber"
+        "pt_BR": "",
+        "en": "New Subscriber"
     },
     "description": {
         "pt_BR": "",
-        "en": ""
+        "en": "Triggers when a new subscriber is added to a list."
     },
-    "trigger_fields": {
-        "type":"remote",
+/*    "trigger_fields": {
+        "type":"local",
         "fields": [
             {
-                "key": "list_id",
-                "name": {"pt_BR": "ID da lista", "en": "List ID"},
-                "description": {"pt_BR": "O ID da lista.", "en": "The list ID."},
-                "field_type": "integer"
+                "key": "title",
+                "name": "Título",
+                "description": "Título do artigo",
+                "field_type": "string"
+            },
+            {
+                "key": "author",
+                "name": "Autor",
+                "description": "Autor do artigo",
+                "field_type": "string"
             }
         ]
+    },*/
+    "configuration_fields": {
+        "key": "list_id",
+        "name": {
+            "pt_BR": "",
+            "en": "List"
+        },
+        "description": {
+            "pt_BR": "",
+            "en": "Choose a list."
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+            "type": "remote",
+            "helper_method": "lists"
+        }
     }
 }
