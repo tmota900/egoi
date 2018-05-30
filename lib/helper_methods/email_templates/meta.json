@@ -1,6 +1,6 @@
 {
-  "name": "E-mail Templates",
-  "helper_method_key": "emailTemplates",
+  "name": "E-mail templates",
+  "helper_method_key": "email_templates",
   "requests": [
     {
       "method_name": "/templates/email",

@@ -1,6 +1,6 @@
 {
-  "name": "SMS Templates",
-  "helper_method_key": "smsTemplates",
+  "name": "SMS templates",
+  "helper_method_key": "sms_templates",
   "requests": [
     {
       "method_name": "/templates/sms",

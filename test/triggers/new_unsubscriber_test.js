@@ -12,7 +12,7 @@ describe('Trigger: New unsubscriber', function () {
                 api_key: process.env.API_KEY
             },
             input: {
-                list_id: 5
+                listID: 5
             }
         };
 

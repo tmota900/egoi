@@ -1,0 +1,66 @@
+{
+  "name": {
+    "pt_BR": "Enviar campanha de SMS",
+    "en": "Send SMS campaign"
+  },
+  "description": {
+    "pt_BR": "Enviar uma campanha de SMS a um contato à sua escolha",
+    "en": "Sends a SMS campaign to a subscriber of your choosing"
+  },
+  "action_fields": {
+    "fields": [
+      {
+        "key": "listID",
+        "name": {
+          "pt_BR": "Lista",
+          "en": "List"
+        },
+        "description": {
+          "pt_BR": "Escolha uma lista",
+          "en": "Choose a list"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "lists"
+        }
+      },
+      {
+        "key": "template",
+        "name": {
+          "pt_BR": "Template da campanha",
+          "en": "Campaign template"
+        },
+        "description": {
+          "pt_BR": "Escolha um template de SMS",
+          "en": "Choose a SMS template"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "sms_templates"
+        }
+      },
+      {
+        "key": "cellphone",
+        "name": {
+          "pt_BR": "Celular do contato",
+          "en": "Subscriber cellphone"
+        },
+        "description": {
+          "pt_BR": "Escolha um celular de um contato para enviar a sua campanha",
+          "en": "Choose a subscriber cellphone to send the campaign"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      }
+
+    ]
+  }
+}

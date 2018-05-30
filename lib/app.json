@@ -33,10 +33,7 @@
       }
     ],
     "ping_request": {
-      "method": "/ping",
-      "params": {
-        "foo": "bar"
-      }
+      "method": "/ping"
     }
   }
 }

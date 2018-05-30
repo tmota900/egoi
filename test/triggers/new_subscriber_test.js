@@ -12,13 +12,12 @@ describe('Trigger: New subscriber', function () {
                 api_key: process.env.API_KEY
             },
             input: {
-                list_id: 5
+                listID: 5
             }
         };
 
         trigger.handle(plg, event)
             .then((res) => {
-
                 expect(res[0]).to.be.an('object');
                 expect(res[0]).to.have.property('email');
                 done();

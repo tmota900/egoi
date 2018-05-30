@@ -1,45 +1,77 @@
 {
     "name": {
-        "pt_BR": "",
-        "en": "New Subscriber"
+        "pt_BR": "Novo contato",
+        "en": "New subscriber"
     },
     "description": {
-        "pt_BR": "",
-        "en": "Triggers when a new subscriber is added to a list."
+        "pt_BR": "Ativado quando um novo contato é adicionado a uma lista",
+        "en": "Triggers when a new subscriber is added to a list"
     },
-/*    "trigger_fields": {
+    "trigger_fields": {
         "type":"local",
         "fields": [
             {
-                "key": "title",
-                "name": "Título",
-                "description": "Título do artigo",
+                "key": "first_name",
+                "name": "Nome",
+                "description": "Nome do contato",
                 "field_type": "string"
             },
             {
-                "key": "author",
-                "name": "Autor",
-                "description": "Autor do artigo",
+                "key": "last_name",
+                "name": "Sobrenome",
+                "description": "Sobrenome do contato",
+                "field_type": "string"
+            },
+            {
+                "key": "email",
+                "name": "E-mail",
+                "description": "E-mail do contato",
+                "field_type": "string"
+            },
+            {
+                "key": "cellphone",
+                "name": "Celular",
+                "description": "Celular do contato",
+                "field_type": "string"
+            },
+            {
+                "key": "telephone",
+                "name": "Telefone",
+                "description": "Telefone do contato",
+                "field_type": "string"
+            },
+            {
+                "key": "birth_date",
+                "name": "Data de nascimento",
+                "description": "Date de nascimento do contato",
+                "field_type": "date"
+            },
+            {
+                "key": "language",
+                "name": "Idioma",
+                "description": "Idioma do contato",
                 "field_type": "string"
             }
         ]
-    },*/
-    "configuration_fields": {
-        "key": "list_id",
-        "name": {
-            "pt_BR": "",
-            "en": "List"
-        },
-        "description": {
-            "pt_BR": "",
-            "en": "Choose a list."
-        },
-        "field_type": "dropdown",
-        "required": true,
-        "visible": true,
-        "list": {
-            "type": "remote",
-            "helper_method": "lists"
+    },
+    "configuration_fields": [
+        {
+            "key": "listID",
+            "name": {
+                "pt_BR": "Lista",
+                "en": "List"
+            },
+            "description": {
+                "pt_BR": "Escolha uma lista",
+                "en": "Choose a list"
+            },
+            "field_type": "dropdown",
+            "required": true,
+            "visible": true,
+            "list": {
+                "type": "remote",
+                "helper_method": "lists"
+            }
         }
-    }
+    ]
 }
