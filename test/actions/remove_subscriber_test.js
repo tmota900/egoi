@@ -5,8 +5,8 @@ const action = require('../../lib/actions/remove_subscriber');
 
 const subscriber = {
     first_name: 'João',
-    last_name: 'Pluga',
-    email: 'joaosantos.pluga@e-goi.com'
+    last_name: 'Santos',
+    email: 'example@e-goi.com'
 };
 
 describe('Action: Remove subscriber', function () {

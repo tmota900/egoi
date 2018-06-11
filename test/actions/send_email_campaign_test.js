@@ -4,7 +4,7 @@ const expect = require('chai').expect;
 const action = require('../../lib/actions/send_email_campaign');
 
 const campaign = {
-    email: 'jrafael@e-goi.com',
+    email: 'example@e-goi.com',
     template: 'a47af35f6e07e518c1cba6c769f7db46'
 };
 
