@@ -1,11 +1,11 @@
 {
   "name": {
-    "pt_BR": "Atualizar contato",
-    "en": "Update subscriber"
+    "pt_BR": "Adicionar/Atualizar contato",
+    "en": "Add/Update subscriber"
   },
   "description": {
-    "pt_BR": "Atualizar um novo contato de uma lista à sua escolha",
-    "en": "Update an existing subscriber to a list of your choosing"
+    "pt_BR": "Adicionar/Atualizar um contato de uma lista à sua escolha",
+    "en": "Add/Update a subscriber to a list of your choosing"
   },
   "action_fields": {
     "fields": [

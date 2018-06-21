@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c46aa2-1bc4-428e-8e1c-c8172426a23c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/actions/add_subscriber/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/add_subscriber/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/add_tag/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/add_tag/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/remove_subscriber/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/remove_subscriber/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/send_email_campaign/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/send_email_campaign/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/send_sms_campaign/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/send_sms_campaign/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/start_autobot/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/start_autobot/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/update_subscriber/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/update_subscriber/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/triggers/bar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/triggers/new_subscriber/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/triggers/new_subscriber/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/triggers/new_subscriber/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/triggers/new_subscriber/meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/triggers/new_unsubscriber/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/triggers/new_unsubscriber/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/actions/add_subscriber_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/actions/add_subscriber_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/actions/foo_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/actions/remove_subscriber_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/actions/remove_subscriber_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/actions/send_email_campaign_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/actions/send_email_campaign_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/actions/update_subscriber_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/actions/update_subscriber_test.js" afterDir="false" />
-    </list>
+    <list default="true" id="04c46aa2-1bc4-428e-8e1c-c8172426a23c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -41,7 +23,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meta.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meta.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/triggers/new_subscriber/meta.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -98,7 +89,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="47" />
     <option name="y" value="-4" />
     <option name="width" value="1319" />
@@ -123,19 +114,6 @@
               <item name="egoi" type="b2602c69:ProjectViewProjectNode" />
               <item name="egoi" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="egoi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="egoi" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="triggers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="egoi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="egoi" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="triggers" type="462c0819:PsiDirectoryNode" />
-              <item name="new_subscriber" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="egoi" type="b2602c69:ProjectViewProjectNode" />
@@ -184,12 +162,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528714049125</updated>
-      <workItem from="1528714050459" duration="2501000" />
+      <workItem from="1528714050459" duration="3105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2501000" />
+    <option name="totallyTimeSpent" value="3105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-4" width="1321" height="773" extended-state="6" />
@@ -222,13 +200,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/triggers/new_unsubscriber/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -308,6 +279,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/triggers/new_subscriber/meta.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/triggers/new_subscriber/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -315,10 +293,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/triggers/new_subscriber/meta.json">
+    <entry file="file://$PROJECT_DIR$/lib/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="288">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
