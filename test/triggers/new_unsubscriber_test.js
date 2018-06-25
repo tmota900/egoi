@@ -3,25 +3,28 @@ const expect = require('chai').expect;
 
 const trigger = require('../../lib/triggers/new_unsubscriber');
 
-describe('Trigger: New unsubscriber', function () {
+describe('Trigger: New unsubscriber', function() {
 
-    it('get new unsubscribers and return it as array', function (done) {
-        const event = {
-            meta: { lastReqAt: 1525287122584 },
-            auth: {
-                api_key: process.env.API_KEY
-            },
-            input: {
-                listID: 5
-            }
-        };
+  it('get new unsubscribers and return it as array', function(done) {
+    const event = {
+      meta: {
+        lastReqAt: 1525287122584,
+        baseURI: process.env.BASE_URI
+      },
+      auth: {
+        api_key: process.env.API_KEY
+      },
+      input: {
+        listID: 5
+      }
+    };
 
-        trigger.handle(plg, event)
-            .then((res) => {
-                expect(res[0]).to.be.an('object');
-                expect(res[0]).to.have.property('email');
-                done();
-            })
-            .catch(done);
-    });
+    trigger.handle(plg, event)
+      .then((res) => {
+        expect(res[0]).to.be.an('object');
+        expect(res[0]).to.have.property('email');
+        done();
+      })
+      .catch(done);
+  });
 });

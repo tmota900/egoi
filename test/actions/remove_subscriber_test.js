@@ -4,30 +4,33 @@ const expect = require('chai').expect;
 const action = require('../../lib/actions/remove_subscriber');
 
 const subscriber = {
-    first_name: 'João',
-    last_name: 'Pluga',
-    email: 'joaosantos.pluga@e-goi.com'
+  first_name: 'Plg',
+  last_name: 'Contact 3',
+  email: 'some-example3@e-goi.com'
 };
 
-describe('Action: Remove subscriber', function () {
+describe('Action: Remove subscriber', function() {
 
-    it('remove an existing subscriber and return it', function (done) {
-        const event = {
-            auth: {
-                api_key: process.env.API_KEY
-            },
-            input: {
-                listID: 5,
-                subscriber: subscriber.email
-            }
-        };
+  it('remove an existing subscriber and return it', function(done) {
+    const event = {
+      meta: {
+        baseURI: process.env.BASE_URI
+      },
+      auth: {
+        api_key: process.env.API_KEY
+      },
+      input: {
+        listID: 5,
+        subscriber: subscriber.email
+      }
+    };
 
-        action.handle(plg, event)
-            .then((res) => {
-                expect(res.error).to.be.a('string');
+    action.handle(plg, event)
+      .then((res) => {
+        expect(res.result).to.eq('ok');
 
-                done();
-            })
-            .catch(done);
-    });
+        done();
+      })
+      .catch(done);
+  });
 });

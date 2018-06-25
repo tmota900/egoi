@@ -74,10 +74,5 @@
             }
         }
     ],
-    "trigger_type":"polling",
-    "polling":{
-        "idempotent":[
-            {"type":"body", "field":"id"}
-        ]
-    }
+    "idempotent": ["id"]
 }
