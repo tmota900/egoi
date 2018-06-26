@@ -4,9 +4,9 @@ const expect = require('chai').expect;
 const action = require('../../lib/actions/remove_subscriber');
 
 const subscriber = {
-  first_name: 'Plg',
-  last_name: 'Contact 3',
-  email: 'some-example3@e-goi.com'
+  first_name: 'João',
+  last_name: 'Pluga 3',
+  email: 'joaosantos.pluga3@e-goi.com'
 };
 
 describe('Action: Remove subscriber', function() {
