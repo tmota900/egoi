@@ -1,0 +1,66 @@
+{
+  "name": {
+    "pt_BR": "Iniciar um autobot",
+    "en": "Start autobot"
+  },
+  "description": {
+    "pt_BR": "Iniciar um autobot numa ação à sua escolha",
+    "en": "Starts an autobot on an action of your choosing"
+  },
+  "action_fields": {
+    "fields": [
+      {
+        "key": "autobotID",
+        "name": {
+          "pt_BR": "Autobot",
+          "en": "Autobot"
+        },
+        "description": {
+          "pt_BR": "Escolha um autobot",
+          "en": "Choose an autobot"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "autobots"
+        }
+      },
+      {
+        "key": "autobotActionID",
+        "name": {
+          "pt_BR": "Ação do autobot",
+          "en": "Choose an autobot action"
+        },
+        "description": {
+          "pt_BR": "Escolha uma ação do autobot",
+          "en": "Choose an e-mail template"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "email_templates"
+        }
+      },
+      {
+        "key": "email",
+        "name": {
+          "pt_BR": "E-mail do contato",
+          "en": "Subscriber e-mail"
+        },
+        "description": {
+          "pt_BR": "Escolha um e-mail de um contato para enviar a sua campanha",
+          "en": "Choose a subscriber e-mail to send the campaign"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      }
+
+    ]
+  }
+}

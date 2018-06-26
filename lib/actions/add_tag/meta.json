@@ -1,0 +1,66 @@
+{
+  "name": {
+    "pt_BR": "Adicionar tag",
+    "en": "Add tag"
+  },
+  "description": {
+    "pt_BR": "Adicionar uma tag à sua escolha a um contato",
+    "en": "Attach a tag of your choosing to an existing subscriber"
+  },
+  "action_fields": {
+    "fields": [
+      {
+        "key": "listID",
+        "name": {
+          "pt_BR": "Lista",
+          "en": "List"
+        },
+        "description": {
+          "pt_BR": "Escolha uma lista",
+          "en": "Choose a list"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "lists"
+        }
+      },
+      {
+        "key": "tagID",
+        "name": {
+          "pt_BR": "Tag",
+          "en": "Tag"
+        },
+        "description": {
+          "pt_BR": "Escolha uma tag",
+          "en": "Choose a tag"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "tags"
+        }
+      },
+      {
+        "key": "target",
+        "name": {
+          "pt_BR": "E-goi ID do contato",
+          "en": "Subscriber E-goi ID"
+        },
+        "description": {
+          "pt_BR": "Escolha um contato E-goi (ID único)",
+          "en": "Choose an E-goi subscriber (reference number)"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      }
+
+    ]
+  }
+}

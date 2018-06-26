@@ -1,0 +1,17 @@
+{
+  "name": "Listas",
+  "helper_method_key": "lists",
+  "requests": [
+    {
+      "method_name": "/lists",
+      "mapping": {
+        "label": {
+          "fields": ["title"]
+        },
+        "value": {
+          "field": "id"
+        }
+      }
+    }
+  ]
+}

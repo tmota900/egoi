@@ -1,0 +1,17 @@
+{
+  "name": "Autobots",
+  "helper_method_key": "autobots",
+  "requests": [
+    {
+      "method_name": "/autobots",
+      "mapping": {
+        "label": {
+          "fields": ["name"]
+        },
+        "value": {
+          "field": "id"
+        }
+      }
+    }
+  ]
+}

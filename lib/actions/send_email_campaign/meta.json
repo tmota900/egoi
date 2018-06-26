@@ -1,0 +1,66 @@
+{
+  "name": {
+    "pt_BR": "Enviar campanha de e-mail",
+    "en": "Send e-mail campaign"
+  },
+  "description": {
+    "pt_BR": "Enviar uma campanha de e-mail a um contato à sua escolha",
+    "en": "Sends an e-mail campaign to a subscriber of your choosing"
+  },
+  "action_fields": {
+    "fields": [
+      {
+        "key": "listID",
+        "name": {
+          "pt_BR": "Lista",
+          "en": "List"
+        },
+        "description": {
+          "pt_BR": "Escolha uma lista",
+          "en": "Choose a list"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "lists"
+        }
+      },
+      {
+        "key": "template",
+        "name": {
+          "pt_BR": "Template da campanha",
+          "en": "Campaign template"
+        },
+        "description": {
+          "pt_BR": "Escolha um template de e-mail",
+          "en": "Choose an e-mail template"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "email_templates"
+        }
+      },
+      {
+        "key": "email",
+        "name": {
+          "pt_BR": "E-mail do contato",
+          "en": "Subscriber e-mail"
+        },
+        "description": {
+          "pt_BR": "Escolha um e-mail de um contato para enviar a sua campanha",
+          "en": "Choose a subscriber e-mail to send the campaign"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      }
+
+    ]
+  }
+}

@@ -1,4 +1,39 @@
 {
   "app_id": "egoi",
-  "name": "E-goi"
+  "name": "E-goi",
+  "color": "#00A6DD",
+  "description": {
+    "pt_BR": "",
+    "en": ""
+  },
+  "website": "https://www.e-goi.pt",
+  "signup_url": "https://login.egoiapp.com/#/signup",
+  "api_base_uri": {
+    "production": {
+      "uri": "http://pluginmanager.e-team.biz/app/pluga",
+      "label": "Produção",
+      "default": true
+    }
+  },
+  "authentication": {
+    "type": "pass_through_header",
+    "fields": [
+      {
+        "name": "api_key",
+        "label": "Chave de acesso à API",
+        "mapping": "Authorization",
+        "prefix": "Bearer",
+        "type": "text",
+        "validations": [
+          {
+            "name": "min_length",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "ping_request": {
+      "method": "/ping"
+    }
+  }
 }

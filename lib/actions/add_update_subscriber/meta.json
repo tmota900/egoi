@@ -1,0 +1,138 @@
+{
+  "name": {
+    "pt_BR": "Adicionar/Atualizar contato",
+    "en": "Add/Update subscriber"
+  },
+  "description": {
+    "pt_BR": "Adicionar/Atualizar um contato de uma lista à sua escolha",
+    "en": "Add/Update a subscriber to a list of your choosing"
+  },
+  "action_fields": {
+    "fields": [
+      {
+        "key": "listID",
+        "name": {
+          "pt_BR": "Lista",
+          "en": "List"
+        },
+        "description": {
+          "pt_BR": "Escolha uma lista",
+          "en": "Choose a list"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "lists"
+        }
+      },
+      {
+        "key": "first_name",
+        "name": {
+          "pt_BR": "Nome",
+          "en": "Name"
+        },
+        "description": {
+          "pt_BR": "Escolha o nome do contato",
+          "en": "Choose the subscriber name"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      },
+      {
+        "key": "last_name",
+        "name": {
+          "pt_BR": "Sobrenome",
+          "en": "Last name"
+        },
+        "description": {
+          "pt_BR": "Escolha o obrenome do contato",
+          "en": "Choose the subscriber last name"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      },
+      {
+        "key": "email",
+        "name": {
+          "pt_BR": "E-mail",
+          "en": "E-mail"
+        },
+        "description": {
+          "pt_BR": "Escolha o e-mail do contato",
+          "en": "Choose the subscriber e-mail"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      },
+      {
+        "key": "cellphone",
+        "name": {
+          "pt_BR": "Celular",
+          "en": "Cellphone"
+        },
+        "description": {
+          "pt_BR": "Escolha o celular do contato",
+          "en": "Choose the subscriber cellphone"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      },
+      {
+        "key": "telephone",
+        "name": {
+          "pt_BR": "Telefone",
+          "en": "Telephone"
+        },
+        "description": {
+          "pt_BR": "Escolha o telefone do contato",
+          "en": "Choose the subscriber telephone"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      },
+      {
+        "key": "birth_date",
+        "name": {
+          "pt_BR": "Data de nascimento",
+          "en": "Birth date"
+        },
+        "description": {
+          "pt_BR": "Escolha a data de nascimento do contato",
+          "en": "Choose the subscriber birth date"
+        },
+        "field_type": "date",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      },
+      {
+        "key": "language",
+        "name": {
+          "pt_BR": "Idioma",
+          "en": "Language"
+        },
+        "description": {
+          "pt_BR": "Escolha o idioma do contato",
+          "en": "Choose the subscriber language"
+        },
+        "field_type": "string",
+        "required": false,
+        "visible": true,
+        "advanced": false
+      }
+
+    ]
+  }
+}

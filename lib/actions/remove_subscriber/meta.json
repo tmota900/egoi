@@ -1,0 +1,48 @@
+{
+  "name": {
+    "pt_BR": "Remover contato",
+    "en": "Remove subscriber"
+  },
+  "description": {
+    "pt_BR": "Remover um contato existente de uma lista à sua escolha",
+    "en": "Remove an existing subscriber to a list of your choosing"
+  },
+  "action_fields": {
+    "fields": [
+      {
+        "key": "listID",
+        "name": {
+          "pt_BR": "Lista",
+          "en": "List"
+        },
+        "description": {
+          "pt_BR": "Escolha uma lista",
+          "en": "Choose a list"
+        },
+        "field_type": "dropdown",
+        "required": true,
+        "visible": true,
+        "list": {
+          "type": "remote",
+          "helper_method": "lists"
+        }
+      },
+      {
+        "key": "email",
+        "name": {
+          "pt_BR": "E-mail",
+          "en": "E-mail"
+        },
+        "description": {
+          "pt_BR": "Escolha o e-mail do contato a remover",
+          "en": "Choose a subscriber e-mail to remove"
+        },
+        "field_type": "string",
+        "required": true,
+        "visible": true,
+        "advanced": false
+      }
+
+    ]
+  }
+}

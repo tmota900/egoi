@@ -1,0 +1,17 @@
+{
+  "name": "E-mail templates",
+  "helper_method_key": "email_templates",
+  "requests": [
+    {
+      "method_name": "/templates/email",
+      "mapping": {
+        "label": {
+          "fields": ["name"]
+        },
+        "value": {
+          "field": "id"
+        }
+      }
+    }
+  ]
+}
