@@ -44,7 +44,7 @@
                 "key": "birth_date",
                 "name": "Data de nascimento",
                 "description": "Date de nascimento do contato",
-                "field_type": "date"
+                "field_type": "datetime"
             },
             {
                 "key": "language",
