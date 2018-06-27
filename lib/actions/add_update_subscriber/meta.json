@@ -11,7 +11,7 @@
     "fields": [
       {
         "key": "listID",
-        "name": {
+        "label": {
           "pt_BR": "Lista",
           "en": "List"
         },
@@ -19,7 +19,12 @@
           "pt_BR": "Escolha uma lista",
           "en": "Choose a list"
         },
+        "placeholder": {
+          "pt_BR": "Selecionar lista",
+          "en": "Select list"
+        },
         "field_type": "dropdown",
+        "data_type": "integer",
         "required": true,
         "visible": true,
         "list": {
@@ -37,7 +42,8 @@
           "pt_BR": "Escolha o nome do contato",
           "en": "Choose the subscriber name"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -52,7 +58,8 @@
           "pt_BR": "Escolha o obrenome do contato",
           "en": "Choose the subscriber last name"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -67,7 +74,8 @@
           "pt_BR": "Escolha o e-mail do contato",
           "en": "Choose the subscriber e-mail"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -82,7 +90,8 @@
           "pt_BR": "Escolha o celular do contato",
           "en": "Choose the subscriber cellphone"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -97,7 +106,8 @@
           "pt_BR": "Escolha o telefone do contato",
           "en": "Choose the subscriber telephone"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -112,7 +122,9 @@
           "pt_BR": "Escolha a data de nascimento do contato",
           "en": "Choose the subscriber birth date"
         },
-        "field_type": "date",
+        "field_type": "custom",
+        "data_type": "datetime",
+        "date_format": "%Y-%m-%d",
         "required": false,
         "visible": true,
         "advanced": false
@@ -127,12 +139,12 @@
           "pt_BR": "Escolha o idioma do contato",
           "en": "Choose the subscriber language"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
       }
-
     ]
   }
 }
