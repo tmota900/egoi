@@ -11,15 +11,20 @@
     "fields": [
       {
         "key": "listID",
-        "name": {
+        "label": {
           "pt_BR": "Lista",
           "en": "List"
         },
         "description": {
-          "pt_BR": "Escolha uma lista",
-          "en": "Choose a list"
+          "pt_BR": "A lista é um local onde você consegue concentrar os seus contatos no E-goi.",
+          "en": "A lista é um local onde você consegue concentrar os seus contatos no E-goi."
+        },
+        "placeholder": {
+          "pt_BR": "Selecionar lista",
+          "en": "Select list"
         },
         "field_type": "dropdown",
+        "data_type": "integer",
         "required": true,
         "visible": true,
         "list": {
@@ -34,10 +39,11 @@
           "en": "Name"
         },
         "description": {
-          "pt_BR": "Escolha o nome do contato",
-          "en": "Choose the subscriber name"
+          "pt_BR": "Nome do contato que será adicionado no E-goi",
+          "en": "Nome do contato que será adicionado no E-goi"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -49,10 +55,11 @@
           "en": "Last name"
         },
         "description": {
-          "pt_BR": "Escolha o obrenome do contato",
-          "en": "Choose the subscriber last name"
+          "pt_BR": "Sobrenome do contato que será adicionado no E-goi",
+          "en": "Sobrenome do contato que será adicionado no E-goi"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -64,10 +71,11 @@
           "en": "E-mail"
         },
         "description": {
-          "pt_BR": "Escolha o e-mail do contato",
-          "en": "Choose the subscriber e-mail"
+          "pt_BR": "E-mail do contato que será adicionado no E-goi",
+          "en": "E-mail do contato que será adicionado no E-goi"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -82,7 +90,8 @@
           "pt_BR": "Escolha o celular do contato",
           "en": "Choose the subscriber cellphone"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -94,10 +103,11 @@
           "en": "Telephone"
         },
         "description": {
-          "pt_BR": "Escolha o telefone do contato",
-          "en": "Choose the subscriber telephone"
+          "pt_BR": "Telefone do contato que será adicionado no E-goi",
+          "en": "Telefone do contato que será adicionado no E-goi"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
@@ -112,7 +122,9 @@
           "pt_BR": "Escolha a data de nascimento do contato",
           "en": "Choose the subscriber birth date"
         },
-        "field_type": "date",
+        "field_type": "custom",
+        "data_type": "datetime",
+        "date_format": "%Y-%m-%d",
         "required": false,
         "visible": true,
         "advanced": false
@@ -127,12 +139,12 @@
           "pt_BR": "Escolha o idioma do contato",
           "en": "Choose the subscriber language"
         },
-        "field_type": "string",
+        "field_type": "custom",
+        "data_type": "string",
         "required": false,
         "visible": true,
         "advanced": false
       }
-
     ]
   }
 }

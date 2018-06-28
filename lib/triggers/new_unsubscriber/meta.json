@@ -51,7 +51,7 @@
     "configuration_fields": [
         {
             "key": "listID",
-            "name": {
+            "label": {
                 "pt_BR": "Lista",
                 "en": "List"
             },
@@ -59,7 +59,12 @@
                 "pt_BR": "Escolha uma lista",
                 "en": "Choose a list"
             },
+            "placeholder": {
+                "pt_BR": "Selecionar lista",
+                "en": "Select list"
+            },
             "field_type": "dropdown",
+            "data_type": "integer",
             "required": true,
             "visible": true,
             "list": {
@@ -68,5 +73,7 @@
             }
         }
     ],
-    "idempotent": ["id"]
+    "idempotent": [
+        {"type": "body", "field": "id"}
+    ]
 }
