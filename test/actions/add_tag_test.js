@@ -10,7 +10,7 @@ const tag = {
 
 describe('Action: Add tag', function() {
 
-  it('add a tag and return it', function(done) {
+  xit('add a tag and return it', function(done) {
     const event = {
       meta: {
         baseURI: process.env.BASE_URI
