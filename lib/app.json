@@ -10,7 +10,7 @@
   "signup_url": "https://login.egoiapp.com/#/signup",
   "api_base_uri": {
     "production": {
-      "uri": "http://pluginmanager.e-team.biz/app/pluga",
+      "uri": "http://pluginmanager2.e-team.biz/app/pluga",
       "label": "Produção",
       "default": true
     }
